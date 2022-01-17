@@ -1,6 +1,11 @@
 {
   "name": "mypayga/mypayga-php",
   "description": "Accept Online Payments on your store.",
+   "autoload": {
+        "psr-4": {
+            "mypayga\\mypayga\\": "src/MobileMoney"
+        }
+   },
   "type": "library",
   "require": {
     "php": ">=7.0.0"
@@ -12,5 +17,12 @@
       "email": "contact@minerve-tech.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RandomPassword\\PasswordServiceProvider"
+      ]
+    }
+  }
 }
