@@ -3,7 +3,7 @@
   "description": "Accept Online Payments on your store.",
    "autoload": {
         "psr-4": {
-            "mypayga\\mypayga\\": "src/MobileMoney"
+            "mypayga\\mypayga-php\\": "src/MobileMoney"
         }
    },
   "type": "library",
