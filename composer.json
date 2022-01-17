@@ -1,0 +1,16 @@
+{
+  "name": "mypayga/mypayga-php",
+  "description": "Accept Online Payments on your store.",
+  "type": "library",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Minerve-Tech",
+      "email": "contact@minerve-tech.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
